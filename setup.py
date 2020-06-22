@@ -22,5 +22,5 @@ setuptools.setup(
   entry_points = {
     'console_scripts': ['yamlk8ssplit=yaml_k8s_split.__cli__:main'],
   },
-  install_requires=[]
+  install_requires=['pyyaml','six']
 )

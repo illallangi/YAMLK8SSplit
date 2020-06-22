@@ -5,7 +5,7 @@ import sys
 import yaml
 import six
 
-def main(argv):
+def main():
   files = sys.argv[1:]
   if not files:
       files = ["/dev/stdin"]
@@ -35,4 +35,4 @@ def string_representer(dumper, data):
 yaml.Dumper.add_representer(six.text_type, string_representer)
 
 if __name__ == "__main__":
-  main(sys.argv)
+  main()
