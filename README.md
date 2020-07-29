@@ -7,8 +7,8 @@ Splits Kubernetes YAML resources into seperate files based on .kind, .metadata.n
 
 ## Installation
 
-TBC
+    sudo python -m pip install git+https://github.com/illallangi/YAMLK8SSplit.git
 
 ## Usage
 
-TBC
+    yamlk8ssplit *.yaml
